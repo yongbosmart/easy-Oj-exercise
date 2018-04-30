@@ -1,0 +1,60 @@
+//============================================================================
+// Name        : basic_exercise.cpp
+// Author      : yongbo
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+#include<stdio.h>
+#include <iostream>
+using namespace std;
+//空间大的最简单的排序：桶排序
+/**
+ * 初始化一个数组，然后放入数字，=0不输出，=1输出
+ */
+//system("pause")可以暂停程序
+
+int a[100],n;//
+void xuanze(int *a){//由大到小
+	int *b=a;
+	for(int i=0;i<n;i++){
+		for(int j=i+1;j<n;j++){
+			if(a[i]<a[j]){
+				int tmp=a[j];
+				a[j]=a[i];
+				a[i]=tmp;
+			}
+		}
+	}
+	for(int i=0;i<n;i++){
+		cout<<b[i]<<" ";
+	}
+	cout<<endl;
+}
+
+void maopao(int *a){
+	int *b=a;
+	for(int i=0;i<n;i++){
+		for(int j=0;j<n-i;j++){
+			if(b[j]<b[j+1]){
+				int tmp=b[j];
+				b[j]=b[j+1];
+				b[j+1]=b[j];
+			}
+		}
+	}
+	for(int i=0;i<n;i++)
+		printf("%d",a[i]);
+
+	getchar();getchar();//用来暂停程序，以便查看程序输出，用system（“pause”）可以起到相同的效果
+}
+
+int main() {
+	scanf("%d",&n);//输入一个数
+	for(int i=1;i<=n;i++){
+		scanf("%d",&a[i]);
+	}
+	maopao(a);
+	xuanze(a);
+	return 0;
+}

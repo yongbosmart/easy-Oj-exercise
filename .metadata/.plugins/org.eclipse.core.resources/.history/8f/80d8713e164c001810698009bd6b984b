@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : basic_exercise.cpp
+// Author      : yongbo
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "!!!sort!!!" << endl; // prints !!!sort!!!
+	return 0;
+}

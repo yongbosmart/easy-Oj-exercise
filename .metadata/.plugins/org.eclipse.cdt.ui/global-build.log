@@ -1,0 +1,194 @@
+09:41:58 **** Rebuild of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void xuanze(int*)':
+..\src\basic_exercise.cpp:19:13: error: array must be initialized with a brace-enclosed initializer
+  int b[100]=a;
+             ^
+..\src\basic_exercise.cpp: In function 'void maopao(int*)':
+..\src\basic_exercise.cpp:36:13: error: array must be initialized with a brace-enclosed initializer
+  int b[100]=a;
+             ^
+..\src\basic_exercise.cpp:40:9: warning: unused variable 'tmp' [-Wunused-variable]
+     int tmp=b[j];
+         ^
+09:43:32 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void xuanze(int*)':
+..\src\basic_exercise.cpp:19:13: error: array must be initialized with a brace-enclosed initializer
+  int b[100]=a;
+             ^
+..\src\basic_exercise.cpp: In function 'void maopao(int*)':
+..\src\basic_exercise.cpp:36:13: error: array must be initialized with a brace-enclosed initializer
+  int b[100]=a;
+             ^
+..\src\basic_exercise.cpp:40:9: warning: unused variable 'tmp' [-Wunused-variable]
+     int tmp=b[j];
+         ^
+09:43:45 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void maopao(int*)':
+..\src\basic_exercise.cpp:40:9: warning: unused variable 'tmp' [-Wunused-variable]
+     int tmp=b[j];
+         ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+Info: Nothing to build for basic_exercise
+09:46:31 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void xuanze(int*)':
+..\src\basic_exercise.cpp:30:9: error: 'b' was not declared in this scope
+   cout<<b[i]<<" ";
+         ^
+..\src\basic_exercise.cpp: In function 'void maopao(int*)':
+..\src\basic_exercise.cpp:40:9: warning: unused variable 'tmp' [-Wunused-variable]
+     int tmp=a[j];
+         ^
+09:46:40 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void maopao(int*)':
+..\src\basic_exercise.cpp:40:9: warning: unused variable 'tmp' [-Wunused-variable]
+     int tmp=a[j];
+         ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+09:47:35 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void maopao(int*)':
+..\src\basic_exercise.cpp:40:9: warning: unused variable 'tmp' [-Wunused-variable]
+     int tmp=a[j];
+         ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+09:48:08 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void maopao(int*)':
+..\src\basic_exercise.cpp:40:9: warning: unused variable 'tmp' [-Wunused-variable]
+     int tmp=a[j];
+         ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+09:51:31 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+Info: Nothing to build for basic_exercise
+09:52:04 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+10:10:59 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:23:11: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+    if(a[x]<a[j+x]&a[0]>a[j+x+1]){
+           ^
+..\src\basic_exercise.cpp:21:7: warning: unused variable 'tmp' [-Wunused-variable]
+   int tmp=a[x];
+       ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+10:12:07 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:23:11: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+    if(a[x]<a[j+x]&a[0]>a[j+x+1]){
+           ^
+..\src\basic_exercise.cpp:21:7: warning: unused variable 'tmp' [-Wunused-variable]
+   int tmp=a[x];
+       ^
+..\src\basic_exercise.cpp: In function 'void maopao(int*)':
+..\src\basic_exercise.cpp:68:18: error: 'prinff' was not declared in this scope
+   prinff("%s"," ")
+                  ^
+10:12:11 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:23:11: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+    if(a[x]<a[j+x]&a[0]>a[j+x+1]){
+           ^
+..\src\basic_exercise.cpp:21:7: warning: unused variable 'tmp' [-Wunused-variable]
+   int tmp=a[x];
+       ^
+..\src\basic_exercise.cpp: In function 'void maopao(int*)':
+..\src\basic_exercise.cpp:68:18: error: 'prinff' was not declared in this scope
+   prinff("%s"," ");
+                  ^
+10:12:19 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:23:11: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+    if(a[x]<a[j+x]&a[0]>a[j+x+1]){
+           ^
+..\src\basic_exercise.cpp:21:7: warning: unused variable 'tmp' [-Wunused-variable]
+   int tmp=a[x];
+       ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file basic_exercise.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:12:24 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file basic_exercise.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:12:28 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file basic_exercise.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:12:37 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:23:11: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+    if(a[x]<a[j+x]&a[0]>a[j+x+1]){
+           ^
+..\src\basic_exercise.cpp:21:7: warning: unused variable 'tmp' [-Wunused-variable]
+   int tmp=a[x];
+       ^
+..\src\basic_exercise.cpp: In function 'void maopao(int*)':
+..\src\basic_exercise.cpp:68:18: warning: format '%s' expects argument of type 'char*', but argument 2 has type 'int' [-Wformat=]
+   printf("%s",' ');
+                  ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file basic_exercise.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:12:40 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file basic_exercise.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:13:25 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:23:11: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+    if(a[x]<a[j+x]&a[0]>a[j+x+1]){
+           ^
+..\src\basic_exercise.cpp:21:7: warning: unused variable 'tmp' [-Wunused-variable]
+   int tmp=a[x];
+       ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file basic_exercise.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:13:32 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file basic_exercise.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:13:54 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:23:11: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+    if(a[x]<a[j+x]&a[0]>a[j+x+1]){
+           ^
+..\src\basic_exercise.cpp:21:7: warning: unused variable 'tmp' [-Wunused-variable]
+   int tmp=a[x];
+       ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
