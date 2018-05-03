@@ -1,14 +1,1 @@
-10:13:54 **** Incremental Build of configuration Debug for project basic_exercise ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
-..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
-..\src\basic_exercise.cpp:23:11: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
-    if(a[x]<a[j+x]&a[0]>a[j+x+1]){
-           ^
-..\src\basic_exercise.cpp:21:7: warning: unused variable 'tmp' [-Wunused-variable]
-   int tmp=a[x];
-       ^
-g++ -o basic_exercise.exe "src\\basic_exercise.o" 
-
-10:13:55 Build Finished (took 1s.816ms)
-
+Info: Nothing to build for basic_exercise

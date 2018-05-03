@@ -19,6 +19,7 @@ using namespace std;
 int a[100],n;//
 
 void quicksort(int *a,int x,int y){//x,起始点，y,长度 递归实现的快排，好像是这样的QAQ
+	//注意对比和标程的区别
 	if(y>1){
 		int tmp=a[x];
 		for(int j=0;j<y-1;j++){//这么多次循环

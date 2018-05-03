@@ -1,0 +1,43 @@
+//============================================================================
+// Name        : queue_stack_ex1.cpp
+// Author      : yongbo
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+#include<stdio.h>
+#include <queue>
+#include<stack>
+#include <iostream>
+using namespace std;
+
+void card_game(){
+	int l,m,n;
+	scanf("%d",&l);
+	queue<int> a;
+	queue<int> b;
+	for(int i=0;i<l;i++){
+		scanf("%d",&m);
+		a.push(m);
+	}
+	scanf("%d",&n);
+	for(int i=0;i<l;i++){
+		scanf("%d",&n);
+		a.push(n);
+	}
+	int card[10];int top=0;//啊哈，算法（P38）中的利用数组模拟栈，一个数组和一个top足矣。
+	//一共九种牌面，so，card不超过10,（超过10肯定有两个相同的牌面了）！！
+	//一般1,2,3,4,5对应数组下标最后也对应。存在card[1]中！！这里的思想
+	while((!a.empty())&(!b.empty())){
+		int x=a.pop();
+		for(int i=0;i<)
+		int y=b.pop();
+	}
+}
+
+
+int main() {
+//	cout << "!!!queue_stack_ex1!!!" << endl; // prints !!!queue_stack_ex1!!!
+
+	return 0;
+}

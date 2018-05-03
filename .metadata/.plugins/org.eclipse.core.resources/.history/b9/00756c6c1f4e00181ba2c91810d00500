@@ -1,0 +1,82 @@
+//============================================================================
+// Name        : queue_stack_ex1.cpp
+// Author      : yongbo
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+#include<stdio.h>
+#include <queue>
+#include<stack>
+#include <iostream>
+using namespace std;
+
+void card_game(){
+	int l,m,n;
+	scanf("%d",&l);
+	queue<int> a;
+	queue<int> b;
+	for(int i=0;i<l;i++){
+		scanf("%d",&m);
+		a.push(m);
+	}
+//	scanf("%d",&n);
+	for(int i=0;i<l;i++){
+		scanf("%d",&n);
+		b.push(n);
+	}
+	int card[10];int top=0;//啊哈，算法（P38）中的利用数组模拟栈，一个数组和一个top足矣。
+	//一共九种牌面，so，card不超过10,（超过10肯定有两个相同的牌面了）！！
+	//一般1,2,3,4,5对应数组下标最后也对应。存在card[1]中！！这里的思想
+	while((!a.empty())&(!b.empty())){
+		bool wina=false;
+		bool winb=false;
+		int x=a.front();
+		a.pop();
+//		for(int i=0;i<=top;i++){  //跳几层循环似乎难以确定，算法书上是直接把这个方法提出去了break只能跳出一个循环，因此需要跳出多个循环时，可以使用布尔量
+//			if(x==card[i]){
+//				int tmp=top;
+//				for(int j=x;j++;j<=tmp){
+//					a.push(card[j]);
+//					card[j]=0;
+//					top--;
+//				}
+//				wina=true;
+//					break;//跳几层循环呢？
+//			}
+//		}
+		if(!wina){
+			top++;
+			card[top]=x;
+		}
+		int y=b.front();
+		b.pop();
+		for(int i=0;i<=top;i++){
+			if(x==card[i]){
+				for(int j=x;j++;j<=top){
+					b.push(card[j]);
+					card[j]=0;
+					top--;
+				}
+				winb=true;
+				break;//跳几层循环呢？
+			}
+		}
+		if(!winb){
+			top++;
+			card[top]=x;
+		}
+	}
+	if(a.empty()) printf("%s","b");
+	else printf("%s","a");
+
+	getchar();
+	getchar();
+}
+
+
+int main() {
+//	cout << "!!!queue_stack_ex1!!!" << endl; // prints !!!queue_stack_ex1!!!
+	card_game();
+	return 0;
+}

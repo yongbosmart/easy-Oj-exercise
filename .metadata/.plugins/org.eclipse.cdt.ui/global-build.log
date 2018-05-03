@@ -192,3 +192,135 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\bas
    int tmp=a[x];
        ^
 g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+23:16:01 **** Rebuild of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:25:11: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+    if(a[x]<a[j+x]&a[0]>a[j+x+1]){
+           ^
+..\src\basic_exercise.cpp:23:7: warning: unused variable 'tmp' [-Wunused-variable]
+   int tmp=a[x];
+       ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+23:16:05 **** Rebuild of configuration Debug for project queue_stack_ex1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_stack_ex1.o" "..\\src\\queue_stack_ex1.cpp" 
+..\src\queue_stack_ex1.cpp: In function 'void card_game()':
+..\src\queue_stack_ex1.cpp:39:22: warning: for increment expression has no effect [-Wunused-value]
+     for(int j=x;j++;j<=tmp){
+                      ^
+..\src\queue_stack_ex1.cpp:56:22: warning: for increment expression has no effect [-Wunused-value]
+     for(int j=x;j++;j<=top){
+                      ^
+..\src\queue_stack_ex1.cpp:52:7: warning: unused variable 'y' [-Wunused-variable]
+   int y=b.front();
+       ^
+g++ -o queue_stack_ex1.exe "src\\queue_stack_ex1.o" 
+23:17:34 **** Incremental Build of configuration Debug for project queue_stack_ex1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_stack_ex1.o" "..\\src\\queue_stack_ex1.cpp" 
+..\src\queue_stack_ex1.cpp: In function 'void card_game()':
+..\src\queue_stack_ex1.cpp:39:22: warning: for increment expression has no effect [-Wunused-value]
+     for(int j=x;j++;j<=tmp){
+                      ^
+..\src\queue_stack_ex1.cpp:56:22: warning: for increment expression has no effect [-Wunused-value]
+     for(int j=x;j++;j<=top){
+                      ^
+..\src\queue_stack_ex1.cpp:52:7: warning: unused variable 'y' [-Wunused-variable]
+   int y=b.front();
+       ^
+g++ -o queue_stack_ex1.exe "src\\queue_stack_ex1.o" 
+23:18:53 **** Incremental Build of configuration Debug for project queue_stack_ex1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_stack_ex1.o" "..\\src\\queue_stack_ex1.cpp" 
+..\src\queue_stack_ex1.cpp: In function 'void card_game()':
+..\src\queue_stack_ex1.cpp:39:22: warning: for increment expression has no effect [-Wunused-value]
+     for(int j=x;j++;j<=tmp){
+                      ^
+..\src\queue_stack_ex1.cpp:56:22: warning: for increment expression has no effect [-Wunused-value]
+     for(int j=x;j++;j<=top){
+                      ^
+..\src\queue_stack_ex1.cpp:52:7: warning: unused variable 'y' [-Wunused-variable]
+   int y=b.front();
+       ^
+g++ -o queue_stack_ex1.exe "src\\queue_stack_ex1.o" 
+23:20:14 **** Incremental Build of configuration Debug for project queue_stack_ex1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_stack_ex1.o" "..\\src\\queue_stack_ex1.cpp" 
+..\src\queue_stack_ex1.cpp: In function 'void card_game()':
+..\src\queue_stack_ex1.cpp:39:22: warning: for increment expression has no effect [-Wunused-value]
+     for(int j=x;j++;j<=tmp){
+                      ^
+..\src\queue_stack_ex1.cpp:56:22: warning: for increment expression has no effect [-Wunused-value]
+     for(int j=x;j++;j<=top){
+                      ^
+..\src\queue_stack_ex1.cpp:52:7: warning: unused variable 'y' [-Wunused-variable]
+   int y=b.front();
+       ^
+g++ -o queue_stack_ex1.exe "src\\queue_stack_ex1.o" 
+Info: Nothing to build for queue_stack_ex1
+23:21:29 **** Incremental Build of configuration Debug for project queue_stack_ex1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_stack_ex1.o" "..\\src\\queue_stack_ex1.cpp" 
+..\src\queue_stack_ex1.cpp: In function 'void card_game()':
+..\src\queue_stack_ex1.cpp:39:22: warning: for increment expression has no effect [-Wunused-value]
+     for(int j=x;j++;j<=tmp){
+                      ^
+..\src\queue_stack_ex1.cpp:56:22: warning: for increment expression has no effect [-Wunused-value]
+     for(int j=x;j++;j<=top){
+                      ^
+..\src\queue_stack_ex1.cpp:52:7: warning: unused variable 'y' [-Wunused-variable]
+   int y=b.front();
+       ^
+g++ -o queue_stack_ex1.exe "src\\queue_stack_ex1.o" 
+Info: Nothing to build for queue_stack_ex1
+Info: Nothing to build for queue_stack_ex1
+08:31:42 **** Incremental Build of configuration Debug for project queue_stack_ex1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_stack_ex1.o" "..\\src\\queue_stack_ex1.cpp" 
+..\src\queue_stack_ex1.cpp:15:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int card[10];int top=0;
+                       ^
+..\src\queue_stack_ex1.cpp:17:1: error: reference to 'stack' is ambiguous
+ stack s;
+ ^
+..\src\queue_stack_ex1.cpp:14:8: note: candidates are: struct stack
+ struct stack{
+        ^
+In file included from c:\mingw\lib\gcc\mingw32\5.3.0\include\c++\stack:61:0,
+                 from ..\src\queue_stack_ex1.cpp:10:
+c:\mingw\lib\gcc\mingw32\5.3.0\include\c++\bits\stl_stack.h:99:11: note:                 template<class _Tp, class _Sequence> class std::stack
+     class stack
+           ^
+..\src\queue_stack_ex1.cpp: In function 'int a_win(int)':
+..\src\queue_stack_ex1.cpp:19:17: error: 's' was not declared in this scope
+  for(int i=0;i<=s.top;i++){  //跳几层循环似乎难以确定，算法书上是直接把这个方法提出去了break只能跳出一个循环，因此需要跳出多个循环时，可以使用布尔量
+                 ^
+..\src\queue_stack_ex1.cpp: In function 'int b_win(int)':
+..\src\queue_stack_ex1.cpp:29:17: error: 's' was not declared in this scope
+  for(int i=0;i<=s.top;i++){  //跳几层循环似乎难以确定，算法书上是直接把这个方法提出去了break只能跳出一个循环，因此需要跳出多个循环时，可以使用布尔量
+                 ^
+..\src\queue_stack_ex1.cpp: In function 'void card_game()':
+..\src\queue_stack_ex1.cpp:63:14: error: 's' was not declared in this scope
+    for(int j=s.top;j>=mm;j--){
+              ^
+..\src\queue_stack_ex1.cpp:69:4: error: 's' was not declared in this scope
+    s.top++;
+    ^
+..\src\queue_stack_ex1.cpp:76:14: error: 's' was not declared in this scope
+    for(int j=s.top;j>=nn;j--){
+              ^
+..\src\queue_stack_ex1.cpp:82:4: error: 's' was not declared in this scope
+    s.top++;
+    ^
+Info: Nothing to build for basic_exercise
+08:32:39 **** Incremental Build of configuration Debug for project queue_stack_ex1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_stack_ex1.o" "..\\src\\queue_stack_ex1.cpp" 
+..\src\queue_stack_ex1.cpp:15:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int card[10];int top=0;
+                       ^
+g++ -o queue_stack_ex1.exe "src\\queue_stack_ex1.o" 
+Info: Nothing to build for queue_stack_ex1
+Info: Nothing to build for queue_stack_ex1
