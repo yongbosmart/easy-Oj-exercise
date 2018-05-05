@@ -1,0 +1,7 @@
+10:29:31 **** Incremental Build of configuration Debug for project OJ_ant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\OJ_ant.o" "..\\src\\OJ_ant.cpp" 
+g++ -o OJ_ant.exe "src\\OJ_ant.o" 
+
+10:29:33 Build Finished (took 1s.740ms)
+

@@ -324,3 +324,178 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_stack_ex1.o" "..\\src\\qu
 g++ -o queue_stack_ex1.exe "src\\queue_stack_ex1.o" 
 Info: Nothing to build for queue_stack_ex1
 Info: Nothing to build for queue_stack_ex1
+10:42:26 **** Rebuild of configuration Debug for project queue_stack_ex1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_stack_ex1.o" "..\\src\\queue_stack_ex1.cpp" 
+..\src\queue_stack_ex1.cpp:19:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int card[10];int top=0;
+                       ^
+g++ -o queue_stack_ex1.exe "src\\queue_stack_ex1.o" 
+Info: Nothing to build for queue_stack_ex1
+10:43:26 **** Rebuild of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:26:11: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+    if(a[x]<a[j+x]&a[0]>a[j+x+1]){
+           ^
+..\src\basic_exercise.cpp:24:7: warning: unused variable 'tmp' [-Wunused-variable]
+   int tmp=a[x];
+       ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+10:43:51 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:26:11: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+    if(a[x]<a[j+x]&a[0]>a[j+x+1]){
+           ^
+..\src\basic_exercise.cpp:24:7: warning: unused variable 'tmp' [-Wunused-variable]
+   int tmp=a[x];
+       ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+Info: Nothing to build for basic_exercise
+Info: Nothing to build for basic_exercise
+10:47:22 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:25:11: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+    if(a[x]<a[j+x]&a[0]>a[j+x+1]){
+           ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+10:49:36 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:26:11: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+    if(a[x]<a[j+x]&a[x]>a[j+x+1]){
+           ^
+..\src\basic_exercise.cpp:23:6: warning: unused variable 'tmp' [-Wunused-variable]
+  int tmp=a[x];
+      ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+10:54:23 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:23:6: warning: unused variable 'tmp' [-Wunused-variable]
+  int tmp=a[x];
+      ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+10:54:52 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:23:6: warning: unused variable 'tmp' [-Wunused-variable]
+  int tmp=a[x];
+      ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+10:55:41 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:23:6: warning: unused variable 'tmp' [-Wunused-variable]
+  int tmp=a[x];
+      ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+10:58:41 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+..\src\basic_exercise.cpp: In function 'void quicksort(int*, int, int)':
+..\src\basic_exercise.cpp:23:6: warning: unused variable 'tmp' [-Wunused-variable]
+  int tmp=a[x];
+      ^
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+11:00:18 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+11:05:03 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+11:06:41 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+11:06:57 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+11:07:11 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+21:22:41 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+21:23:24 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+Info: Nothing to build for basic_exercise
+Info: Nothing to build for queue_stack_ex1
+Info: Nothing to build for basic_exercise
+21:24:33 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+21:25:39 **** Incremental Build of configuration Debug for project basic_exercise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\basic_exercise.o" "..\\src\\basic_exercise.cpp" 
+g++ -o basic_exercise.exe "src\\basic_exercise.o" 
+Info: Nothing to build for basic_exercise
+22:13:15 **** Rebuild of configuration Debug for project model_chain ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\model_chain.o" "..\\src\\model_chain.cpp" 
+g++ -o model_chain.exe "src\\model_chain.o" 
+Info: Nothing to build for queue_stack_ex1
+Info: Nothing to build for model_chain
+Info: Nothing to build for model_chain
+Info: Nothing to build for model_chain
+Info: Nothing to build for model_chain
+10:25:58 **** Rebuild of configuration Debug for project OJ_ant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\OJ_ant.o" "..\\src\\OJ_ant.cpp" 
+..\src\OJ_ant.cpp:13:12: error: array bound is not an integer constant before ']' token
+ int x[MAX_N];
+            ^
+..\src\OJ_ant.cpp: In function 'void solve()':
+..\src\OJ_ant.cpp:19:21: error: 'x' was not declared in this scope
+   minT=max(minT,min(x[i],L-x[i]));//得到最大，最小值
+                     ^
+..\src\OJ_ant.cpp:23:21: error: 'x' was not declared in this scope
+   maxT=max(maxT,max(x[i],L-x[i]));
+                     ^
+Info: Nothing to build for basic_exercise
+10:26:00 **** Incremental Build of configuration Debug for project model_chain ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\model_chain.o" "..\\src\\model_chain.cpp" 
+g++ -o model_chain.exe "src\\model_chain.o" 
+Info: Nothing to build for queue_stack_ex1
+10:28:28 **** Incremental Build of configuration Debug for project OJ_ant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\OJ_ant.o" "..\\src\\OJ_ant.cpp" 
+..\src\OJ_ant.cpp: In function 'void solve()':
+..\src\OJ_ant.cpp:19:18: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'int' [-Wformat=]
+   scanf("%d",x[i]);
+                  ^
+g++ -o OJ_ant.exe "src\\OJ_ant.o" 
+Info: Nothing to build for basic_exercise
+Info: Nothing to build for model_chain
+Info: Nothing to build for queue_stack_ex1
+Info: Nothing to build for OJ_ant
+10:29:00 **** Incremental Build of configuration Debug for project OJ_ant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\OJ_ant.o" "..\\src\\OJ_ant.cpp" 
+..\src\OJ_ant.cpp: In function 'void solve()':
+..\src\OJ_ant.cpp:19:18: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'int' [-Wformat=]
+   scanf("%d",x[i]);
+                  ^
+g++ -o OJ_ant.exe "src\\OJ_ant.o" 
+10:29:31 **** Incremental Build of configuration Debug for project OJ_ant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\OJ_ant.o" "..\\src\\OJ_ant.cpp" 
+g++ -o OJ_ant.exe "src\\OJ_ant.o" 

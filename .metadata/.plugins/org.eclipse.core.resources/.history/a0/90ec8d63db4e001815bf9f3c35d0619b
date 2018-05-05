@@ -1,0 +1,24 @@
+//============================================================================
+// Name        : model_chain.cpp
+// Author      : yongbo
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+/**
+ * 模拟链表即一个数组存放data，另一个数组存放其next的值
+ * 新插入数字放在末尾，然后改变对应的另一个数组存放的next值。
+ * 一道使用模拟链表的算法题，破损的键盘
+ * 在显示屏上盲打一段文字，在这过程中由于键盘的问题，Home键与end键会自动按下，显有一段文本，其中‘[’表示Home键按下，‘]’表示End键按下，求出显示屏上的文字排序
+ *示例输入
+ *This_is_a_[Beiju]_text
+ *示例输出
+ *BeijuThis_is_a__text
+ */
+#include <iostream>
+using namespace std;
+
+int main() {
+//	cout << "!!!model_chain!!!" << endl; // prints !!!model_chain!!!
+	return 0;
+}

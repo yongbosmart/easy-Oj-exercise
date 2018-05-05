@@ -1,6 +1,6 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:basic_exercise.exe,org.eclipse.launchbar.core.descriptorType.default\:queue_stack_ex1.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:queue_stack_ex1.exe,org.eclipse.launchbar.core.descriptorType.default\:basic_exercise.exe,org.eclipse.launchbar.core.descriptorType.default\:model_chain.exe,org.eclipse.launchbar.core.descriptorType.default\:OJ_ant.exe
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:basic_exercise.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:basic_exercise.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

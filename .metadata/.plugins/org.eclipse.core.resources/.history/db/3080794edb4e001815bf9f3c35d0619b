@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : model_chain.cpp
+// Author      : yongbo
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "!!!model_chain!!!" << endl; // prints !!!model_chain!!!
+	return 0;
+}
