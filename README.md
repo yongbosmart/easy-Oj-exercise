@@ -1,18 +1,17 @@
-<<<<<<< HEAD
-easy-Oj-exercise
+####easy-Oj-exercise
 
-每天码一码代码
+简单的代码练习
 
 basic
 
-- 排序算法（选择、冒泡、快排）
+- sort
 - stack queue chain
 - bfs dfs
 =======
 # easy-Oj-exercise
-### ÿ����һ�����
+### 每天码一码代码
 #### basic
-- �����㷨��ѡ��ð�ݡ����ţ�
+- 排序算法（选择、冒泡、快排）
 - stack queue chain
 - bfs dfs
->>>>>>> 同步
+
